@@ -1,0 +1,2 @@
+KE 3 phase average: 0.206
+BMEF Ripple: 9.14%

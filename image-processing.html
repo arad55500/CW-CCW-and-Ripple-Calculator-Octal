@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Back EMF & Ripple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="title-container">
+        <h1>Back EMF & Ripple Calculator</h1>
+        <p>Created by Arad Okanin</p>
+      </div>
+      <div class="logo-container">
+        <img src="logo.png" alt="Logo" class="logo">
+      </div>
+    </div>
+  </header>
+  <div class="main-content">
+    <div class="calculator-container">
+      <div class="calculator">
+        <h2 class="center">CW</h2>
+        <p class="motor-type-display"></p>
+        <button class="process-calculate-button">Process & Calculate</button>
+        <p class="filepath"></p>
+        <img class="image-preview" src="" alt="Image Preview" style="max-width: 100%; display: none;">
+        <p class="loading-message" style="display: none;">Loading...</p>
+        <p style="color:red">Make sure the ripple wave is at the bottom of the phase A sine wave.</p>
+        <pre class="output"></pre>
+      </div>
+      <div class="calculator">
+        <h2 class="center">CCW</h2>
+        <p class="motor-type-display"></p>
+        <button class="process-calculate-button">Process & Calculate</button>
+        <p class="filepath"></p>
+        <img class="image-preview" src="" alt="Image Preview" style="max-width: 100%; display: none;">
+        <p class="loading-message" style="display: none;">Loading...</p>
+        <p style="color:red">Make sure the ripple wave is at the top of the phase A sine wave.</p>
+        <pre class="output"></pre>
+      </div>
+    </div>
+    <button class="back-button" style="position: absolute; bottom: 20px; right: 20px;">Back</button>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
