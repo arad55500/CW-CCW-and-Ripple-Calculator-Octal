@@ -9,7 +9,7 @@ let mainWindow;
 let imageProcessingWindow;
 
 // Replace 'YOUR_API_KEY' with your actual API key
-const apiKey = 'AIzaSyCjFo93J0lfYrH8WYZkXqJhyhUKIC1lNrk';
+const apiKey = 'ENTER API KEY HERE';
 
 function createMainMenu() {
   mainWindow = new BrowserWindow({
